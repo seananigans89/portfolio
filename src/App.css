@@ -143,6 +143,11 @@ footer{
 .cardblock2{
 
 }
+.cardcontent img{
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
 .cardcontent{
   /* border:1px solid black; */
   max-width: 1000px;
