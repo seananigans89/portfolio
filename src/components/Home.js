@@ -9,7 +9,8 @@ const Home = () => {
           <br />I make things for the web.
         </p>
       </div>
-      <button className="enterbtn">Enter</button>
+      <a href='mailto:seanstory@gmail.com'><button  className="enterbtn">Enter</button></a>
+      
     </div>
   );
 };

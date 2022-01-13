@@ -6,11 +6,12 @@ import Home from "./components/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
-
+import "react-card-with-image/dist/index.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="appcontainer">
+       <BrowserRouter>
         <Header/>
 
       <Routes> 
@@ -21,6 +22,8 @@ function App() {
       </Routes>
       <Footer/>
     </BrowserRouter>
+    </div>
+   
   );
 }
 
