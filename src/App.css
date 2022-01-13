@@ -154,6 +154,8 @@ footer{
   display: flex;
   flex-direction: column;
   margin-bottom: -100px;
+  font-family: 'Nanum Gothic Coding', monospace;
+
 }
 .projecttitle{
   padding-left: 150px;
