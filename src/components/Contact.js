@@ -7,11 +7,11 @@ const Contact = () => {
       <div className="contact">
         <p>
           Get In Touch
-          <br />Drop me a line and let's get started on your next project!
+          <br />Let's get started on your next project!
         </p>
       </div>
       <a href="mailto:seanstory@gmail.com">
-        <button className="contactbtn"><FeatherIcon icon='mail' size={33}/></button>
+        <button className="contactbtn"><FeatherIcon icon='mail' size={53}/></button>
       </a>
     </div>
   );

@@ -7,10 +7,10 @@ const Home = () => {
       <div className="entermessage">
         <p>
           Hi, I'm Sean.
-          <br />I make things for the web.
+          <br />I build apps for mobile, web, and life.
         </p>
       </div>
-      <Link className="link" to="./projects"><button  className="enterbtn">Enter</button></Link>
+      <Link to="./projects"><button  className="enterbtn">Enter</button></Link>
     </div>
   );
 };

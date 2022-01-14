@@ -1,38 +1,35 @@
-/* #root{
-  width: 100%;
-  margin: 0 auto;
-}
-.appcontainer{
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0 auto;
-  width: 100%;
-} */
-
 body{
   width: 100%;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   /* border: 1px solid black; */
 }
+
+.appcontainer{
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: 'Nanum Gothic Coding', monospace;
-  
+  color: black;
+ 
   
 }
-.greeting{ 
-  margin-left: 10vw;
-  border: 1px solid black;
-}
+
 .homeicon{
-margin-left: 10vw;
-height: 30px;
-width: 30px;
+/* margin-left: 10vw; */
+height: 40px;
+width: 40px;
+color: black;
 }
 .homeicon:visited{
   color: black;
@@ -40,15 +37,17 @@ width: 30px;
 .navlinks{
   list-style: none;
   display: inline;
-  margin-right: 10vw;
-  
+  /* margin-right: 7vw; */
+  font-size: 30px;
+  color: black;
 }
 .link {
-  /* display: inline; */
+  
   margin-right: 3vw;
   list-style: none;
   text-decoration: none;
   cursor: pointer;
+  color: black;
   
 }
 .link:visited{
@@ -61,10 +60,19 @@ width: 30px;
   cursor: pointer;
   font-family: 'Nanum Gothic Coding', monospace;
   padding: 3px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
+.enterbtn{
+  background-color: transparent;
+  height: 80px;
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 30px;
 
+}
 .homecontainer{
   display: flex;
   /* border: 1px solid black; */
@@ -81,28 +89,26 @@ width: 30px;
   /* border: 1px solid black; */
   text-align: center;
   font-family: 'Nanum Gothic Coding', monospace;
-  line-height: 25px;
+  line-height: 40px;
+  font-size: 30px;
 }
-
-.enterbtn{
-  background-color: transparent;
-  height: 40px;
-  width: 100px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 20px;
+.entermessage p::first-line{
+  font-weight: 900;
+  font-size:larger;
 
 }
+
+
 .footercontainer{
   display: flex;
   justify-content: center;
+  height: 100px;
+  margin-top: 30vh;
 }
 
 footer{
   display: flex;
   justify-content: space-between; 
-  margin-top: 30vh;
   width: 300px;
   /* border: 1px solid black; */
 }
@@ -110,7 +116,7 @@ footer{
   cursor: pointer;
   height: 40px;
   width: 40px;
-
+  color: black;
 
 }
 .footer a:visited{
@@ -127,22 +133,30 @@ footer{
 }
 .contactbtn{
   background-color: transparent;
-  height: 40px;
-  width: 100px;
+  height: 80px;
+  width: 200px;
   border-radius: 5px;
   cursor: pointer;
   font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 20px;
+  font-size: 30px;
 }
-.projectcontainer{
+.contact{
+  display: flex;
   /* border: 1px solid black; */
+  text-align: center;
+  font-family: 'Nanum Gothic Coding', monospace;
+  line-height: 40px;
+  font-size: 30px;
+}
+.contact p::first-line{
+  font-weight: 900;
+  font-size:larger;
 }
 .cardblock1{
   margin-bottom: 70px;
+  /* border: 1px solid black; */
 }
-.cardblock2{
 
-}
 .cardcontent img{
   border: 5px solid black;
   border-radius: 10px;
@@ -150,14 +164,48 @@ footer{
 }
 .cardcontent{
   /* border:1px solid black; */
+  margin-top: 10vh;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
   margin-bottom: -100px;
   font-family: 'Nanum Gothic Coding', monospace;
-
+  line-height: 1.2;
 }
 .projecttitle{
   padding-left: 150px;
   margin-bottom: -20px;
+}
+
+.aboutcontainer{
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20vh;
+  max-width: 730px;
+
+}
+.aboutcontainer img{
+  height: 400px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.abouttext{
+margin: 0px 20px;
+font-family: 'Nanum Gothic Coding', monospace;
+line-height: 1.16;
+}
+.repolink{
+  font-size: 20px;
+  text-decoration: none;
+  /* border: 1px solid black; */
+
+}
+.repolink:visited{
+  color: black;
+}
+.repo{
+  margin-left: 150px;
+  width: 50px;
+
 }
