@@ -156,7 +156,9 @@ footer{
   margin-bottom: 70px;
   /* border: 1px solid black; */
 }
-
+.cardblock3 img{
+  width: 200px;
+}
 .cardcontent img{
   border: 5px solid black;
   border-radius: 10px;
@@ -199,7 +201,7 @@ line-height: 1.16;
   font-size: 20px;
   text-decoration: none;
   /* border: 1px solid black; */
-
+  color: black;
 }
 .repolink:visited{
   color: black;
@@ -207,5 +209,5 @@ line-height: 1.16;
 .repo{
   margin-left: 150px;
   width: 50px;
-
+  color: black;
 }

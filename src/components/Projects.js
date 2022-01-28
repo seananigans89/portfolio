@@ -49,6 +49,28 @@ const Projects = () => {
       image: "https://i.imgur.com/ozqwyMd.png",
     },
   ];
+  const spaceInvaders = [
+    {
+      id: 1,
+      header: "Overview",
+      description:
+        "A Pygame clone of the arcade classic Space Invaders. Project is currently in development.",
+      image: "https://i.imgur.com/TbXIV0q.jpg",
+    },
+    {
+      id: 2,
+      header: "Lessons",
+      description:
+        "Coming Soon",
+      image: "https://i.imgur.com/TbXIV0q.jpg",
+    },
+    {
+      id: 3,
+      header: "Next Step",
+      description: "Coming Soon",
+      image: "https://i.imgur.com/TbXIV0q.jpg",
+    },
+  ];
   return (
     <div className="cardcontent">
       <div className="cardblock1">
@@ -96,6 +118,25 @@ const Projects = () => {
         {/* <h3 className="repo">Play Me!</h3> */}
       </a>
       <div></div>
+      <div className="cardblock3">
+        <h1 className="projecttitle">Space Invaders (Coming Soon!)</h1>
+        <div className="proj1">
+          <CardView
+            items={spaceInvaders}
+            activeColor="#000"
+            imageHeight="350px"
+            imageWidth="175px"
+          />
+        </div>
+        <a
+          className="repolink"
+          href="https://github.com/seananigans89/space-invaders"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <h3 className="repo">Repo</h3>
+        </a>
+      </div>
     </div>
   );
 };
